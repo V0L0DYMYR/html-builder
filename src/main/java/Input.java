@@ -3,8 +3,9 @@
 
 
 
-public class Input implements Element {
-  public String print() {
-    return "<input>";
+public class Input extends AbstractElement implements Element {
+
+  protected Input() {
+    super("input");
   }
 }

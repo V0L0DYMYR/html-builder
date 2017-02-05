@@ -1,10 +1,10 @@
 
 
 
+public class Button extends AbstractElement implements Element {
 
-public class Button implements Element{
-
-  public String print() {
-    return "<button></button>";
+  public Button() {
+    super("button");
   }
+
 }
